@@ -1,0 +1,96 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    width: 100vw;
+    font-family: Spartan, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(/assets/img-bg.jpg) no-repeat;
+    background-position:180% 100%;
+    background-size: contain;
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    background-color: var(--body-bg-color);
+}
+
+.logo {
+    height: 94px;
+    margin: 50px 30px;
+}
+
+.text-box {
+    margin: 0 36px;
+    font-size: 14px;
+    text-transform: lowercase;
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: Work Sans, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 75px;
+    color: var(--title-color);
+}
+
+span {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+form {
+    width: 110%;
+    margin: 50px 30px 0;
+}
+
+.form-input {
+    width: 105%;
+    display: flex;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--form-color);
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    font-family: Work Sans, sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+    border: none;
+    border-left: 5px var(--title-color) solid;
+}
+
+.send:hover {
+    cursor: pointer;
+}
+
+.read {
+    display: flex;
+    align-items: center;
+    margin: 100px 0 0 36px;
+    color: var(--bg-button-color);
+}
+
+a {
+    font-weight: bold;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: var(--bg-button-color);
+}
